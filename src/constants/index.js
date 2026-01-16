@@ -24,6 +24,7 @@ import {
   res1,
   res2,
   res3,
+  gym,
 } from "../assets";
 
 
@@ -194,8 +195,8 @@ const testimonials = [
 const projects = [
   {
     name: "Shoe Shop",
-    description:
-      "online store",
+   // description:
+    //  "online store",
     tags: [
       {
         name: "react",
@@ -215,8 +216,8 @@ const projects = [
   },
   {
     name: "Restaurant 1",
-    description:
-      "A digital presence",
+   // description:
+      //"A digital presence",
     tags: [
       {
         name: "react",
@@ -236,8 +237,8 @@ const projects = [
   },
   {
     name: "Restaurant 2",
-    description:
-    "web 2",
+    //description:
+    //"web 2",
     tags: [
       {
         name: "nextjs",
@@ -258,8 +259,8 @@ const projects = [
 
   {
     name: "Restaurant 3",
-    description:
-    "web 2",
+    //description:
+    //web 2",
     tags: [
       {
         name: "nextjs",
@@ -277,6 +278,27 @@ const projects = [
     image: res3,
     source_code_link: "https://restaurantwebxraj.netlify.app/",
   },
+
+  {
+    name: "The Mahaveer Gym",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gym,
+    source_code_link: "https://rajarazz.github.io/gym/",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

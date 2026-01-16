@@ -33,6 +33,7 @@ import shoe from "./shoe.png";
 import res1 from "./res1.png";
 import res2 from "./res2.png";
 import res3 from "./res3.png";
+import gym from "./gym.png";
 
 
 export {
@@ -68,4 +69,5 @@ export {
   res1,
   res2,
   res3,
+  gym,
 };
